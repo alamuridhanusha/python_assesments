@@ -79,7 +79,8 @@ print(y)'''
 x=[1,2,3,4]
 for i in range(len(x)-1):
     x[i]=x[i]+x[i+1]
-    print(x[i])
+    print(x[i],end=' ')
+    
 
 '''str='w3resource'
 d={}
