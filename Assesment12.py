@@ -76,10 +76,10 @@ y=[i*10 for i in x]
 print(y)'''
 
 # x=[1,2,3,4] -> [3,5,7]
-'''x=[1,2,3,4]
-for i in range(len(x)):
-    i+=i
-    print(i)'''
+x=[1,2,3,4]
+for i in range(len(x)-1):
+    x[i]=x[i]+x[i+1]
+    print(x[i])
 
 '''str='w3resource'
 d={}
