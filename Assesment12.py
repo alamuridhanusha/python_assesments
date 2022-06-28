@@ -69,18 +69,23 @@ for i in set(x):
     if i in x:
         print(i,x.count(i))'''
 
+
+
+
+
+
 #x=(10,2,3,5)-> each ele multifly by 10   (100,20,30,50)
-'''x=(10,2,3,5)
+x=(10,2,3,5)
 x=list(x)
 y=[i*10 for i in x]
-print(y)'''
+print(y)
 
 # x=[1,2,3,4] -> [3,5,7]
-x=[1,2,3,4]
+'''x=[1,2,3,4]
 for i in range(len(x)-1):
     x[i]=x[i]+x[i+1]
-    print(x[i],end=' ')
-    
+    print(x[i],end=' ')'''
+
 
 '''str='w3resource'
 d={}
